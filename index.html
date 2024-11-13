@@ -9,52 +9,71 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg rounded" aria-label="Thirteenth navbar example">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-      
-              <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-                <a class="navbar-brand col-lg-3 me-0" href="#">
-                    <img src="./images/logo.png.webp" alt="logo">
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+              <img src="./images/logo.png.webp" alt="logo">
+            </a>
+          </div>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary text-white">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Courses</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-toggle text-white nav-link px-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
                 </a>
-                <ul class="navbar-nav col-lg-6 justify-content-lg-center ">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
-                  </li>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-                <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-                  <button class="btn btn-primary">Button</button>
-                </div>
               </div>
+            </li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-toggle text-white nav-link px-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </header>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
+        
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-5 mb-3 text-white">Learn your
+              Favorite Course
+              From Online</h1>
+            
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Browse Our Courses</button>
             </div>
-          </nav>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/edu_ilastration.png.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
     </header>
 
 
