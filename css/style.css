@@ -9,3 +9,23 @@ body{
 header{
     background-image: url('../images/banner.png');
 }
+
+.para-font{
+    font-size: 14px;
+}
+
+.courses-circle-blue{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(147,201,255, 0.7);
+    top: 5px;
+    left: 250px ;
+}
+
+.courses-circle-orange{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(235, 119, 65, 0.6);
+    top: 115px;
+    left: 125px ;
+}
